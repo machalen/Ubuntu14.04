@@ -13,5 +13,4 @@ MAINTAINER Magdalena Arnal <marnal@imim.es>
 RUN apt-get update && apt-get install --yes wget unzip python
 
 #Set User and default Working Directory
-USER 1001:1001
 WORKDIR /
